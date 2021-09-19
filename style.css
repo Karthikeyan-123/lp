@@ -1,0 +1,114 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  background-image: url(/images/coffee-background.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  /* position: absolute; */
+}
+
+
+
+.container{
+  /* position: r; */
+  height: 350px;
+  width: 320px;
+  box-sizing: border-box;
+  background: rgb(0, 0, 0);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  opacity: 0.8;
+}
+
+
+
+
+.avatar{
+  height: 80px;
+  width: 80px;
+  border-radius:50%;
+  position: absolute;
+  top:-50px;
+  left: calc(50% - 40px);
+}
+
+p,h2{
+  color: aliceblue;
+  margin-bottom: 5px;
+}
+
+
+
+h2{
+  text-align: center;
+  padding: 30px;
+}
+.form-type{
+  text-align: center;
+}
+
+
+
+.btn{
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  width: 70px;
+  cursor: pointer;
+  background: #fff;
+}
+.btn:hover{
+  color: #fff;
+  background: red;
+}
+
+
+
+input{
+  padding: 5px;
+  width:70%;
+  border: none;
+  background:transparent;
+  border-bottom:1px solid #fff ;
+}
+
+
+
+label{
+  padding: 5px;
+}
+label a{
+  text-decoration: none;
+  color: antiquewhite;
+}
+label a:hover{
+  color: red;
+}
+
+@media (max-width:500px) {
+  body{
+    padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  background-image: url(/images/coffee-potrait.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  width: 100%; 
+  }
+}
+
+.container{
+  opacity: 0.7;
+}
